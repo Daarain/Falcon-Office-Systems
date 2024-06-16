@@ -33,12 +33,13 @@ header:hover {
     
     top: 0;
     height: 11%;
-    width: 100%;
+    /* width: 100%; */
     position: sticky;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    padding-left: 5%;
+    /* justify-content: space-around; */
     
 }
 
