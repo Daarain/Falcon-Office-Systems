@@ -1,212 +1,114 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
-
 
 body {
-    background-color: white;
-
+    min-height: 100vh;
 }
 
-/* header {
-    height: 4%;
-    padding-top: 0.5%;
-    font-size: 80%;
+nav {
+    height: 80px;
+    background-color: black;
     display: flex;
-    background-color: #1e1e21;
-    color: #b1b1b0;
-    padding-left: 15%;
-    padding-right: 15%;
+    align-items: center;
     justify-content: space-between;
-} */
-
-header:hover {
-    color: white;
+    padding: 0px 50px 0px 100px;
 
 }
 
-
-
-.Nav {
-    z-index: 1000;
-    background-color: white;
-
-    top: 0;
-    height: 11%;
-    /* width: 100%; */
-    position: sticky;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-left: 5%;
-    /* justify-content: space-around; */
-
-}
-
-.Nav img {
-    height: 100%;
-    /* padding-left: 15%; */
-}
-
-.Nav2 {
-    padding: 0.5rem 1rem;
-    font-weight: 800;
-    width: 600px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+nav .logo {
+    font-size: 33px;
     color: #ca3969;
-    cursor: pointer;
+    font-weight: bold;
+    
 }
 
-.Button {
+nav ul li {
+    margin: 0 5px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+
+nav ul li a {
     color: #ca3969;
+    font-weight: bold;
     text-decoration: none;
-
+    letter-spacing: 1px;
+    font-size: 15px;
 }
 
-.Button:hover {
+nav ul li a:hover,
+nav ul li a.active {
     color: #89133d;
-
 }
 
 
-.Button:active {
-    color: #89133d;
-    /* Ensure active links use the same color as hover */
+nav .menu_bttn{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
 }
 
-.intropage img {
-    width: 100%;
-    /* justify-content: center; */
-    /* background-color: red; */
-    align-self: center;
-    /* padding-top: 10%; */
+#click{
+    display:  none;
 }
 
 
 
 
-footer {
-    background-color: #1e1e21;
-    color: gainsboro;
-    height: 20%;
-    padding: 2%;
+@media (max-width:940px) {
+
+nav .menu_bttn{
     display: block;
-    justify-content: space-evenly;
 
-    text-align: center;
+
 }
-
-.title {
-    font-size: 125%;
-    text-decoration: underline;
-    font-weight: 900;
-    color: gainsboro;
-    padding-bottom: 1%;
-    /* background-color: red; */
-}
-
-.contact_details {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 75%;
-    font-size: 100%;
-    /* background-color: red;s\ */
-}
-
-.email {
-    width: 40%;
-    height: 150%;
-    /* background-color: red; */
-
-    justify-content: center;
-}
-
-.address {
-    width: 70%;
-    height: 150%;
-    /* background-color: red; */
+#click:checked ~.menu_bttn :before{
+    content: "\f00d";
+    height: 10px;
+    display: block;
+    
 }
 
 
-
-
-
-@media  only screen and(max-width:414){
-    body{
-        background-color: red;
+    nav ul{
+        position: fixed;
+        left:-100%;
+        top: 80px;
+        background-color: #111;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.4s;
     }
 
-    .Nav{
-    z-index: 1000;
-    /* background-color: red; */
+    nav ul li {
+        margin: 40px 0;
+    }
 
-    top: 0;
-    height: 2px;
-    width: 414px;
-    position: sticky;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    /* padding-left: 5%; */
-}
+    #click:checked ~ul{
+        left:-0%;
+    }
 
-.Nav img{
-    max-width: 10px;
+  
+    nav ul li a{
+        color: white;
+        display: block;
 
-}
-.Nav2{
-    padding: 0.5rem 1rem;
-    font-weight: 800;
-    width: 200px; ;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: #ca3969;
-    cursor: pointer;
-
-}
-
+    }
+    nav ul li a:hover,
+    nav ul li a.active{
+        color: #ca3969;
+    }
 
 
 }
-@media only screen and ( min-width:360){
-
-
-
-}
-
-
-
-/* .Global_nav{
-    width: 40%;
-    height: 5%;
-    justify-content: center;
-    color: black;
-    /* background-color: yellow; */
-/* display: flex; 
-    padding: 0px;
-    text-align: center;
-    align-items: center;
-    font-size: 16px;
-    text-decoration: none;
-    /* margin: 10px; */
-/* cursor: pointer;
-}
-.button{
-    color: inherit;
-    padding-top: 3.5%;
-    text-decoration: none;
-    width: 25%;
-    height: 100%;
-}
-.button:hover{
-    background-color: lightskyblue;
-    color: white; */
-/* } */
