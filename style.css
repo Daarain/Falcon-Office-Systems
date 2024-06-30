@@ -144,8 +144,8 @@ nav .menu_bttn {
 
 .why_us_element3 .circle {
     background-color: #89133d;
-    width: 75px;
-    height: 75px;
+    width: 10vh;
+    height: 10vh;
     align-self: center;
     border-radius: 50px;
 }
@@ -296,17 +296,17 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 160vh;
+        height: 200vh;
     }
 
     .why_us{
-        height: 150vh;
+        height: 100vh;
         width: 80%;
         display:flex;
         flex-direction: column;
         align-items: center;
         align-self: center;
-        justify-content: center;
+        /* justify-content: start; */
 
     }
 
@@ -317,7 +317,7 @@ footer {
         margin-top: 50px;
         margin-bottom: 0;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         align-self: center;
     }
 
@@ -328,17 +328,18 @@ footer {
         align-items: center;
         text-align: center;
         width: 100%;
-        height: 100vh;
+        height: 150vh;
         gap: 30px;
     }
     .why_us_element3{
         width: 90%;
+        height: 100vh ;
     }
 
     .why_us_element3 .circle {
         background-color: #89133d;
-        width: 75px;
-        height: 75px;
+        width: 8vh;
+        height: 8vh;
         align-self: center;
         border-radius: 50px;
     }
