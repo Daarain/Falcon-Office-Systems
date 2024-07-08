@@ -47,12 +47,15 @@ nav ul {
     justify-content: space-between;
 
 }
-
-
+/* 
+nav ul li{
+    font-size: 30px;
+} */
 nav ul li a {
     color: #ca3969;
     font-weight: bold;
     text-decoration: none;
+    /* font-size: 0px; */
     letter-spacing: 1px;
     font-size: 2.5vh;
     padding: 15px 20px 15px 20px;
@@ -178,6 +181,100 @@ nav .menu_bttn {
 
 
 }
+
+.about_us{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:flex-end;
+}
+
+/* .about_us .about_us_image{
+
+} */
+
+.about_us img{
+    height: 75vh;
+    width: 90%;
+    padding:5vh 5vh;
+    align-self: flex-end;
+}
+
+.about_us .textpara{
+/* background-color: rebeccapurple; */
+width: 50%;
+padding: 10vh 3vh;
+height: 60vh;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+
+.about_us .title{
+/* background-color: red; */
+width: 95%;
+padding: 20px 20px;
+font-family: "Anton SC", sans-serif;
+height:12vh;
+font-size: 40px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+
+
+}
+.about_us .text2{
+    height: 13vh;
+    max-height: 15vh;
+   
+    width: 95%;
+    padding: 20px 20px 20px 20px ;
+    /* background: gray; */
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   justify-content:flex-start; 
+   align-items: flex-start;
+   font-size: 15px;
+/* align-items: center; */
+}
+
+.about_us .button{
+    height: 7vh;
+    /* background-color: black; */
+    padding: 20px 20px;
+    width: 95%;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+    /* height: ; */
+}
+.about_us button{
+    background-color: #89133d;
+    
+    color: white;
+    height: 7vh;
+    width: 20%;
+    border-radius: 8px ;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
