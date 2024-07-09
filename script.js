@@ -5,4 +5,7 @@ function showsidebar() {
 
 }
 
+// document.getElementById("aboutbutton").addEventListener("click", function() {
+//     window.location.href = "About_us.html";
+// });
 
