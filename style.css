@@ -248,12 +248,26 @@ text-align: center;
 
 
 .about_us button{
-    background-color: #89133d;
-    border-radius: 30px;
+    background-color: #ca3969;
+    border-radius: 15px;
     color: white;
     height: 7vh;
     width: 20%;
+    
     }
+    @keyframes aboutus{
+        0% {background-color: #ca3969;}
+        50% {background-color: #89133d;}
+    }
+    
+
+.about_us button:hover{
+ background-color: #89133d;
+ cursor: pointer;
+ animation-name: aboutus;
+animation-duration:2s ;
+}
+
 
 .about_us .button{
     width: 95%;
