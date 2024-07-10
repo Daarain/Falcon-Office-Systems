@@ -495,11 +495,11 @@ text-align: justify;
    
     .about_us{
         width: 100%;
-        height: 140vh;
-        /* background-color: yellow; */
+        height: 80vh;
+        background-color: yellow;
         display:flex;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         justify-content:center;
     }
     
@@ -510,46 +510,48 @@ text-align: justify;
     .about_us img{
         height: 30vh;
         width: 80%;
+        display: none;
         /* padding:3vh 2vh; */
         align-self: flex-end;
     }
     .about_us_image{
         width: 80%;
-        display: flex;
-        flex-direction: row;
+        display: none;
+       flex-direction: row;
         align-items: center;
-        background-color: red;
+        /* background-color: red; */
     }
     
     .about_us .textpara{
     /* background-color: rebeccapurple; */
     width: 90%;
     padding: 3vh 3vh;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     /* text-align: center; */
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:start;
     }
     
     
     .about_us .title{
     /* background-color: red; */
-    width: 95%;
-    padding: 20px 20px;
+    width: 90%;
+    /* padding: 20px 20px; */
     font-family: "Anton SC", sans-serif;
     height:15vh;
     font-size: 40px;
     display: flex;
-    /* justify-content: flex-start;
-    align-items: center;
-    text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center;
+    text-align: center; 
     
+     */
     
     }
     .about_us .text2{
-        height: 20vh;
+        height: 27vh;
         max-height: 30vh;
        
         width: 95%;
@@ -557,11 +559,9 @@ text-align: justify;
         /* background: gray; */
        display: flex;
        flex-direction: column;
-       /* text-align: left;
-       justify-content:flex-start; 
-       align-items: flex-start; */
+    
        font-size: 15px;
-    /* align-items: center; */
+
     }
     
     
@@ -611,7 +611,7 @@ text-align: justify;
         height: 110vh;
         display: block;
         /* flex-direction: column; */
-       background-color: red;
+       /* background-color: red;     */
         color: lightgrey;
     }
     
