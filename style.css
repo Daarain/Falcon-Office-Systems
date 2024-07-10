@@ -1,10 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
+    overflow-x: hidden; 
 }
 
 header{
@@ -199,7 +201,7 @@ nav .menu_bttn {
 .about_us img{
     height: 75vh;
     width: 90%;
-    padding:5vh 5vh;
+    padding:0vh 0vh;
     align-self: flex-end;
 }
 
@@ -207,12 +209,13 @@ nav .menu_bttn {
 /* background-color: rebeccapurple; */
 width: 50%;
 padding: 10vh 3vh;
-height: 60vh;
+height: 50vh;
+max-height: 70vh;
 display: flex;
 flex-direction: column;
-text-align: center;
+gap: 5%;
 align-items: center;
-justify-content: center;
+/* justify-content: space-evenly; */
 }
 
 
@@ -231,16 +234,17 @@ text-align: center;
 
 }
 .about_us .text2{
-    height: 13vh;
-    max-height: 15vh;
+    height: 30vh;
+    max-height: 40vh;
    
     width: 95%;
-    padding: 30px 20px 50px 20px ;
+    padding: 10px 20px   ;
     /* background: gray; */
    display: flex;
    flex-direction: column;
+   flex-wrap: wrap;
    text-align: left;
-   justify-content:flex-start; 
+   /* justify-content:flex-start;  */
    align-items: flex-start;
    font-size: 15px;
 /* align-items: center; */
@@ -253,7 +257,8 @@ text-align: center;
     color: white;
     border-color: none;
     height: 7vh;
-    width: 20%;
+    width: 150px;
+    font-size: 80%;
     
     }
     @keyframes aboutus{
@@ -276,8 +281,13 @@ animation-duration:2s ;
     /* background-color: lightcoral; */
     display: flex;
     justify-content: start;
+    /* font-size: 20px; */
     
 }
+
+
+
+
 
 footer {
     background-color: #333333;
@@ -572,7 +582,7 @@ text-align: justify;
         border-color: none;
 
         height: 7vh;
-        width: 50%;
+        width: 130px;
         
         }
         @keyframes aboutus{
@@ -595,23 +605,24 @@ text-align: justify;
         /* background-color: lightcoral; */
         display: flex;
         justify-content: start;
-            }
+         }
+
+
     footer {
         background-color: #333333;
-        /* justify-content: space-between; */
         width: 100%;
-        height: 110vh;
-        /* display: flex; */
-        /* flex-direction: column; */
+        height: 130vh;
+
     }
     
     .footer_elements {
-
+      
         width: 100%;
-        height: 110vh;
-        display: block;
-        /* flex-direction: column; */
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
        /* background-color: red;     */
+       justify-content: center;
         color: lightgrey;
     }
     
@@ -622,19 +633,19 @@ text-align: justify;
     
     .footer_element1 {
         height: 30vh;
-        width: 88%;
-        padding: 2px 5% ;
+        width: 89%;
+        padding: 5% 4% ;
         /* background-color: green; */
         align-items:start;
-        
         text-align:left;
         display: flex;
         flex-direction: column;
         justify-content:space-around;
         font-size: 10px;
-        padding: 20px ;
+
         text-decoration: none;
         color: white;
+        
     }
 
 
