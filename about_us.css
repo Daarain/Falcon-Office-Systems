@@ -89,17 +89,37 @@ nav .menu_bttn {
 .about_usbg{
     height: 60vh;
     width: 100%;
-    background-color: #89133d;
+    background-color: #ca3969;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     
     font-family: "Anton SC", sans-serif;
 }
 
+
+.aim{
+    height: 25vh;
+    width: 100%;
+    /* background-color: rebeccapurple;     */
+    display: flex;
+    color: #ca3969;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 2px;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
 
 
 
