@@ -342,18 +342,19 @@ footer {
     }
 
     .aim {
-        height: 25vh;
+        height: 15vh;
         width: 100%;
         /* background-color: rebeccapurple;     */
-        padding: 10px 15px;
+        padding: 10px 20px;
         display: flex;
         color: #ca3969;
         justify-content: center;
         align-items: center;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
         font-family: "Anton SC", sans-serif;
         letter-spacing: 2px;
+        text-align: center;
     }
 
 
@@ -367,7 +368,7 @@ footer {
     }
 
     .container {
-        height: 400vh;
+        height: auto;
         width: 100%;
        
         /* background-color: pink; */
@@ -379,14 +380,14 @@ footer {
     }
 
     .textpara {
-        height: 400vh;
+        height: auto;
         max-height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
         /* text-align: justify; */
         /* background-color: green; */
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
 
