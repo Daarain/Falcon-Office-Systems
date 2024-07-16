@@ -86,7 +86,7 @@ nav .menu_bttn {
     display: none;
 }
 
-.about_usbg{
+.about_usbg {
     height: 60vh;
     width: 100%;
     background-color: #ca3969;
@@ -96,12 +96,12 @@ nav .menu_bttn {
     justify-content: center;
     color: white;
     font-size: 50px;
-    
+
     font-family: "Anton SC", sans-serif;
 }
 
 
-.aim{
+.aim {
     height: 25vh;
     width: 100%;
     /* background-color: rebeccapurple;     */
@@ -116,13 +116,14 @@ nav .menu_bttn {
 }
 
 
- .box{
+.box {
     width: 100%;
     height: auto;
-   justify-content: center;
-   display: flex;
- }
-.container{
+    justify-content: center;
+    display: flex;
+}
+
+.container {
     height: auto;
     width: 95%;
     padding: 5%;
@@ -133,7 +134,7 @@ nav .menu_bttn {
     box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-.textpara{
+.textpara {
     height: 300vh;
     width: 85%;
     display: flex;
@@ -145,46 +146,47 @@ nav .menu_bttn {
 }
 
 
-.title{
-    
+.title {
+
     /* background-color: red; */
-    font-size:20px;
+    font-size: 20px;
     /* font-weight: bold; */
     font-family: "Anton SC", sans-serif;
     letter-spacing: 2px;
 
 }
 
-.description{
+.description {
     height: 40vh;
     /* background-color: rebeccapurple; */
 
-    
+
 
 }
-.images{
+
+.images {
     height: 300vh;
     /* background-color: yellow; */
     width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly   ;
+    justify-content: space-evenly;
 }
 
 
-.image1{
+.image1 {
     /* background-color: red; */
     height: auto;
-    width: auto; 
-   
+    width: auto;
+
 }
 
-.images img{
+.images img {
     height: 40vh;
     width: 40vh;
 }
 
-.empty_space{
+.empty_space {
     height: 10vh;
 
 }
@@ -324,7 +326,118 @@ footer {
         color: #ca3969;
     }
 
-       footer {
+
+    .about_usbg {
+        height: 60vh;
+        width: 100%;
+        background-color: #ca3969;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 25px;
+
+        font-family: "Anton SC", sans-serif;
+    }
+
+    .aim {
+        height: 25vh;
+        width: 100%;
+        /* background-color: rebeccapurple;     */
+        padding: 10px 15px;
+        display: flex;
+        color: #ca3969;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Anton SC", sans-serif;
+        letter-spacing: 2px;
+    }
+
+
+    .box {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .container {
+        height: auto;
+        width: 97%;
+       
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .textpara {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        /* background-color: green; */
+        justify-content: start;
+    }
+
+
+    .title {
+
+        /* background-color: red; */
+        font-size: 20px;
+        width: 100%;
+        /* font-weight: bold; */
+        font-family: "Anton SC", sans-serif;
+        letter-spacing: 2px;
+
+    }
+
+    .description {
+        height: auto;
+        width: 100%;
+        /* background-color: rebeccapurple; */
+
+
+
+    }
+
+    .images {
+        height: 300vh;
+        /* background-color: yellow; */
+        width: auto;
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+    .image1 {
+        /* background-color: red; */
+        height: auto;
+        width: auto;
+
+    }
+
+    .images img {
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .empty_space {
+        height: 10vh;
+
+    }
+
+
+
+
+
+    footer {
         background-color: #333333;
         width: 100%;
         height: 130vh;

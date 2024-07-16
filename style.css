@@ -213,7 +213,7 @@ nav .menu_bttn {
     /* background-color: rebeccapurple; */
     width: 50%;
     padding: 10vh 3vh;
-    height: 50vh;
+    height: auto;
     max-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -262,7 +262,7 @@ nav .menu_bttn {
     color: white;
     border-color: none;
     height: 7vh;
-    width: 150px;
+    width: 35%;
     font-size: 80%;
 
 }
@@ -287,7 +287,7 @@ nav .menu_bttn {
 
 
 .about_us .button {
-    width: 95%;
+    width: 85%;
     height: 7vh;
     /* background-color: lightcoral; */
     display: flex;
