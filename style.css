@@ -465,7 +465,7 @@ footer {
 
     .why_us {
         height: 180vh;
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -497,7 +497,7 @@ footer {
     }
 
     .why_us_element3 {
-        width: 90%;
+        width: 95%;
         height: 100vh;
     }
 
@@ -518,7 +518,7 @@ footer {
 
     .about_us {
         width: 100%;
-        height: 50 vh;
+        height: 50vh;
         padding-bottom: 10px;
         /* background-color: yellow; */
         display: flex;
@@ -584,6 +584,7 @@ footer {
         /* background: gray; */
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
 
         font-size: 15px;
 
