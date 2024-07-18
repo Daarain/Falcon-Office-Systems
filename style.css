@@ -459,12 +459,12 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 180vh;
+        height: auto;
         /* background-color: rebeccapurple; */
     }
 
     .why_us {
-        height: 180vh;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
