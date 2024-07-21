@@ -39,11 +39,12 @@ nav .logo {
 
 nav ul li {
     margin: 0 5px;
+    width: auto;
 }
 
 
 nav ul {
-    width: 25%;
+    width: auto;
     display: flex;
     list-style: none;
     /* background-color: red; */
@@ -198,9 +199,9 @@ nav .menu_bttn {
     justify-content: flex-end;
 }
 
-/* .about_us .about_us_image{
-
-} */
+ .about_us .about_us_image{
+width: auto;
+} 
 
 .about_us img {
     height: 75vh;
@@ -245,6 +246,7 @@ nav .menu_bttn {
     width: 95%;
     padding: 7px 15px;
     /* background: gray; */
+    margin-bottom: 1%;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */

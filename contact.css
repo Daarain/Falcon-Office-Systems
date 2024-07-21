@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     min-height: 100vh;
     overflow-x: hidden;
@@ -53,6 +51,7 @@ nav ul {
     justify-content: space-between;
 
 }
+
 /* 
 nav ul li{
     font-size: 30px;
@@ -85,117 +84,6 @@ nav .menu_bttn {
 #click {
     display: none;
 }
-
-.about_usbg {
-    height: 60vh;
-    width: 100%;
-    background-color: #ca3969;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 50px;
-
-    font-family: "Anton SC", sans-serif;
-}
-
-
-.aim {
-    height: 25vh;
-    width: 100%;
-    /* background-color: rebeccapurple;     */
-    display: flex;
-    color: #ca3969;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Anton SC", sans-serif;
-    letter-spacing: 2px;
-}
-
-
-.box {
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    display: flex;
-}
-
-.container {
-    height: auto;
-    width: 95%;
-    padding: 5%;
-    /* background-color: pink; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.3);
-}
-
-.textpara {
-    height: 250vh;
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px;
-    text-align: justify;
-    /* background-color: green; */
-    justify-content: space-evenly;
-}
-
-
-.title {
-
-    /* background-color: red; */
-    font-size: 20px;
-    /* font-weight: bold; */
-    font-family: "Anton SC", sans-serif;
-    letter-spacing: 2px;
-
-}
-
-.description {
-    height: 27vh;
-    /* background-color: rebeccapurple; */
-
-
-
-}
-
-.images {
-    height: 260vh;
-    /* background-color: yellow; */
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-
-.image1 {
-    /* background-color: red; */
-    height: auto;
-    width: auto;
-
-}
-
-.images img {
-    height: 25vh;
-    width: 25vh;
-}
-
-.empty_space {
-    height: 10vh;
-
-}
-
-
-
-
-
-
 
 footer {
     background-color: #333333;
@@ -269,7 +157,19 @@ footer {
     text-align: justify;
 }
 
+/* 
+@media(min-width:1400){
+
+    .why_us_element3 .para{
+        font-size: 30px;
+    }
+
+} */
+
+
+
 @media (max-width:940px) {
+
     nav {
         background-color: black;
         /* width: 100%; */
@@ -325,125 +225,6 @@ footer {
     nav ul li a.active {
         color: #ca3969;
     }
-
-
-    .about_usbg {
-        height: 40vh;
-        width: 100%;
-        background-color: #ca3969;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: 25px;
-
-        font-family: "Anton SC", sans-serif;
-    }
-
-    .aim {
-        height: 15vh;
-        width: 100%;
-        /* background-color: rebeccapurple;     */
-        padding: 10px 20px;
-        display: flex;
-        color: #ca3969;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: "Anton SC", sans-serif;
-        letter-spacing: 2px;
-        text-align: center;
-    }
-
-
-    .box {
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        display: none;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container {
-        height: auto;
-        width: 100%;
-       
-        /* background-color: pink; */
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
-        justify-content: space-between;
-        box-shadow:none;
-    }
-
-    .textpara {
-        height: auto;
-        max-height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        /* text-align: justify; */
-        /* background-color: green; */
-        justify-content: space-evenly;
-    }
-
-
-    .title {
-
-        /* background-color: red; */
-        font-size: 20px;
-        width: 100%;
-        /* font-weight: bold; */
-        font-family: "Anton SC", sans-serif;
-        letter-spacing: 2px;
-        margin-bottom: 20px;
-
-    }
-
-    .description {
-        height: auto;
-        width: 100%;
-        margin-bottom: 20px;
-        /* background-color: rebeccapurple; */
-
-
-
-    }
-
-    .images {
-        height: 300vh;
-        /* background-color: yellow; */
-        width: auto;
-        display: none;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-
-    .image1 {
-        /* background-color: red; */
-        height: auto;
-        width: auto;
-
-    }
-
-    .images img {
-        height: 10vh;
-        width: 10vh;
-    }
-
-    .empty_space {
-        height: 10vh;
-
-    }
-
-
-
-
-
     footer {
         background-color: #333333;
         width: 100%;
@@ -488,10 +269,4 @@ footer {
     .footer_element1 .text {
         font: 30px;
     }
-
-
-
-
-
-
 }
