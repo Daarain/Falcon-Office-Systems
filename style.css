@@ -116,7 +116,7 @@ nav .menu_bttn {
 }
 
 .why_us_container {
-    height: 100vh;
+    height: 110vh;
 }
 
 .why_us_element1 {
@@ -145,10 +145,10 @@ nav .menu_bttn {
 .why_us_element3 {
     border-color: #b1b1b0;
     border-style: groove;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.1);
     width: 380px;
-    height: 55vh;
+    height: 70vh;
     text-align: center;
     font-size: 15px;
     display: flex;
@@ -239,18 +239,18 @@ nav .menu_bttn {
 }
 
 .about_us .text2 {
-    height: 30vh;
+    height: auto;
     max-height: 40vh;
 
     width: 95%;
-    padding: 10px 20px;
+    padding: 7px 15px;
     /* background: gray; */
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
     text-align: left;
     /* justify-content:flex-start;  */
-    align-items: flex-start;
+    /* align-items: flex-start; */
     font-size: 15px;
     /* align-items: center; */
 }
@@ -258,11 +258,12 @@ nav .menu_bttn {
 
 .about_us button {
     background-color: #ca3969;
-    border-radius: 15px;
+    border-radius: 8px;
+    border-color: grey;
     color: white;
     border-color: none;
     height: 7vh;
-    width: 35%;
+    width: 40%;
     font-size: 80%;
 
 }
@@ -287,7 +288,7 @@ nav .menu_bttn {
 
 
 .about_us .button {
-    width: 85%;
+    width: 90%;
     height: 7vh;
     /* background-color: lightcoral; */
     display: flex;
