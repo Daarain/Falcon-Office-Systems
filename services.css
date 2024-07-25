@@ -136,7 +136,7 @@ nav .menu_bttn {
     /* background-color: pink; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -168,7 +168,7 @@ nav .menu_bttn {
 
 .productitem .title {
     /* background-color: red; */
-    width: 95%;
+    width: 70%;
     height: auto;
     display: flex;
     flex-direction: column;
