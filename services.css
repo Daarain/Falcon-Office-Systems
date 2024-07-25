@@ -146,10 +146,10 @@ nav .menu_bttn {
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
-    align-items:start;
-    padding: 1.5% 1.5% ;
+    align-items: start;
+    padding: 1.5% 1.5%;
     justify-content: space-evenly;
-    
+
 
 }
 
@@ -333,6 +333,116 @@ footer {
         font-size: 25px;
         font-family: "Anton SC", sans-serif;
     }
+
+
+
+    .products_container {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .products {
+        height: auto;
+        width: 90%;
+        /* background-color: rebeccapurple; */
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 3vh;
+    }
+
+    .productrow1 {
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3vh;
+
+    }
+
+    .productrow2 {
+        height: auto;
+        width: 100%;
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3vh;
+
+    }
+
+    .productitem {
+        width: 100%;
+        height: auto;
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 1.5% 1.5%;
+        justify-content: space-evenly;
+
+
+    }
+
+    .productitem:hover {
+        color: white;
+        background-color: #89133d;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+        transition: 0.2s ease-in;
+
+    }
+
+    .productitem img {
+        height: 25vh;
+        width: 95%;
+    }
+
+    .productitem .title {
+        /* background-color: red; */
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 17pt;
+        align-items: start;
+    }
+
+    .productitem .description {
+        height: auto;
+        width: auto;
+        /* background-color: red; */
+        overflow: none;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     footer {
         background-color: #333333;
