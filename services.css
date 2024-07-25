@@ -85,6 +85,7 @@ nav .menu_bttn {
 #click {
     display: none;
 }
+
 .about_usbg {
     height: 60vh;
     width: 100%;
@@ -95,19 +96,99 @@ nav .menu_bttn {
     justify-content: center;
     color: white;
     font-size: 50px;
-
     font-family: "Anton SC", sans-serif;
+    font-weight: bold;
 }
 
-.products_container{
-    height: 100vh;
+.products_container {
+    height: 210vh;
     width: 100%;
-    background-color: darkgreen;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.products{
+.products {
+    height: 200vh;
+    width: 90%;
+    /* background-color: rebeccapurple; */
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10vh;
+}
+
+.productrow1 {
+    height: 90vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
+
+.productrow2 {
+    height: 90vh;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.productitem {
+    width: 30%;
+    height: 90vh;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 1.5% 1.5% ;
+    justify-content: space-evenly;
+    
+
+}
+
+.productitem:hover {
+    color: white;
+    background-color: #89133d;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-in;
+
+}
+
+.productitem img {
+    height: 25vh;
+    width: 95%;
+}
+
+.productitem .title {
+    /* background-color: red; */
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 17pt;
+    align-items: start;
+}
+
+.productitem .description {
+    height: auto;
+    width: auto;
+    /* background-color: red; */
+    overflow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
 
 
 
@@ -183,7 +264,7 @@ footer {
     text-align: justify;
 }
 
-@media(max-width:940px){
+@media(max-width:940px) {
     nav {
         background-color: black;
         /* width: 100%; */
@@ -239,6 +320,7 @@ footer {
     nav ul li a.active {
         color: #ca3969;
     }
+
     .about_usbg {
         height: 40vh;
         width: 100%;
@@ -298,8 +380,3 @@ footer {
     }
 
 }
-
-
-
-
-
