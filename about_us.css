@@ -157,7 +157,8 @@ nav .menu_bttn {
 }
 
 .description {
-    height: 27vh;
+    height: auto;
+    font-size: auto;
     /* background-color: rebeccapurple; */
 
 
