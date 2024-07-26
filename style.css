@@ -105,7 +105,7 @@ nav .menu_bttn {
 
 .why_us {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: green;
     /* justify-content: space-around   ; */
     gap: 100px;
@@ -117,7 +117,8 @@ nav .menu_bttn {
 }
 
 .why_us_container {
-    height: 110vh;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .why_us_element1 {
@@ -125,6 +126,7 @@ nav .menu_bttn {
     font-weight: 900;
     color: #89133d;
     margin-top: 50px;
+
     align-items: center;
     /* background-color: pink; */
 }
@@ -138,7 +140,7 @@ nav .menu_bttn {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 60vh;
+    height: auto;
     gap: 30px;
 
 }
@@ -204,7 +206,7 @@ width: auto;
 } 
 
 .about_us img {
-    height: 75vh;
+    height: 75%;
     width: 90%;
     padding: 0vh 0vh;
     align-self: flex-end;
@@ -329,7 +331,7 @@ footer {
 }
 
 .footer_element1 {
-    height: 55vh;
+    height: auto;
     width: 300px;
     /* background-color: red; */
     align-items: start;
@@ -343,6 +345,7 @@ footer {
     text-decoration: none;
     color: white;
 }
+
 
 .footer_element1 .text {
     font-size: 20px;

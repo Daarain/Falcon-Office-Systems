@@ -223,7 +223,7 @@ footer {
 }
 
 .footer_element1 {
-    height: 55vh;
+    height: auto;
     width: 300px;
     /* background-color: red; */
     align-items: start;

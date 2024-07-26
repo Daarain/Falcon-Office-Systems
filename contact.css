@@ -111,7 +111,7 @@ footer {
 }
 
 .footer_element1 {
-    height: 55vh;
+    height: auto;
     width: 300px;
     /* background-color: red; */
     align-items: start;
@@ -125,6 +125,7 @@ footer {
     text-decoration: none;
     color: white;
 }
+
 
 .footer_element1 .text {
     font-size: 20px;
