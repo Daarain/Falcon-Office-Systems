@@ -137,7 +137,7 @@ nav .menu_bttn {
 
 .productitem {
     width: 30%;
-    height: 70vh;
+    height: 100vh;
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
