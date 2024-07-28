@@ -62,7 +62,7 @@ nav ul li a {
     text-decoration: none;
     /* font-size: 0px; */
     letter-spacing: 1px;
-    font-size: 2.5vh;
+    font-size: auto;
     padding: 15px 20px 15px 20px;
 }
 
@@ -83,6 +83,12 @@ nav .menu_bttn {
 
 #click {
     display: none;
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: #ca3969;
 }
 
 footer {
