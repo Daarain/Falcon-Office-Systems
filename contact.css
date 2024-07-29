@@ -374,12 +374,14 @@ footer {
 
     .Problem{
         width: 95%;
+        height: 35vh;
         padding: 4% 4%;
         overflow: hidden;
 
     }
     .Enquiry{
         width: 95%;
+        height: 35vh;
         padding: 4% 4%;
         overflow: hidden;
     }
@@ -432,4 +434,94 @@ footer {
     .footer_element1 .text {
         font: 30px;
     }
+}
+
+
+@media(min-width:400px){
+    .Problem{
+        width: 95%;
+        height: 35vh;
+        padding: 4% 4%;
+        overflow: hidden;
+
+
+    }
+    .Enquiry{
+        width: 95%;
+        height: 35vh;
+        padding: 4% 4%;
+        overflow: hidden;
+    }
+.Problem section{
+    font-size: 20px;
+    text-align: justify;
+
+
+}
+.Enquiry section{
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+}
+
+@media(min-width:700px){
+
+
+    .box {
+        height: 70vh;
+        width: 100%;
+        background-color: #ca3969;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+    
+
+   
+.Problem {
+    height: 40vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 2% 2%;
+    justify-content: space-between;
+    
+}
+
+.Enquiry {
+    height: 40vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 2% 2%;
+    justify-content: space-between;
+    
+}
+
+.Problem section{
+    font-size: auto;
+    text-align: justify;
+
+
+}
+.Enquiry section{
+    font-size: auto;
+    text-align: justify;
+
+}
+
+
+
 }

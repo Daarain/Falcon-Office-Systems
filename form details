@@ -8,3 +8,16 @@ Poblem reported
 
 
 
+   .Problem{
+        width: 95%;
+        height: 35vh;
+        padding: 4% 4%;
+        overflow: hidden;
+
+    }
+    .Enquiry{
+        width: 95%;
+        height: 35vh;
+        padding: 4% 4%;
+        overflow: hidden;
+    }
