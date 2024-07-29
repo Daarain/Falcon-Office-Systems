@@ -85,11 +85,137 @@ nav .menu_bttn {
     display: none;
 }
 
-.box{
-    height: 100vh;
+.Contactusbg {
+    height: 20vh;
     width: 100%;
     background-color: #ca3969;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+
+    font-family: "Anton SC", sans-serif;
 }
+
+
+
+
+.box {
+    height: 70vh;
+    width: 100%;
+    background-color: #ca3969;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+
+
+
+.Problem {
+    height: 40vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 1% 1%;
+    justify-content: space-between;
+    
+}
+
+.Enquiry {
+    height: 40vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1% 1%;
+    justify-content: space-between;
+    
+}
+
+.Problem title{
+    font-size: 30px;
+    /* color: black; */
+    display: block;
+    font-weight: 900;
+   
+    font-family: "Anton SC", sans-serif;
+}
+
+.Enquiry title{
+    font-size: 30px;
+    font-weight:900;
+    /* color: black; */
+    display: block;
+   
+    font-family: "Anton SC", sans-serif;
+}
+
+.Problem section{
+    font-size: 15px;
+    text-align: justify;
+
+
+}
+.Enquiry section{
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.Problem button{
+    background-color: #ca3969;
+    height: 40px;
+    /* color: white; */
+
+}
+
+.Enquiry button{
+    background-color: #ca3969;
+    height: 40px;
+    /* color: white;h */
+}
+
+
+.Problem:hover{
+    /* background-color: gray; */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    /* background-color: black; */
+    /* color: white; */
+    transition: 0.2s ease-in ;
+}
+
+.Enquiry:hover{
+    /* background-color: #89133d; */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    /* background-color: black; */
+    /* color: white; */
+    transition: 0.2s ease-in ;
+}
+
+.Problem button:hover{
+background-color: #89133d;
+color: white;
+transition:0.4s linear;
+
+}
+.Enquiry button:hover{
+background-color: #89133d;
+color: white;
+transition:0.4s linear;
+}
+
 
 footer {
     background-color: #333333;
@@ -232,6 +358,36 @@ footer {
     nav ul li a.active {
         color: #ca3969;
     }
+
+    .box {
+        height: 100vh;
+        width: 100%;
+        background-color: #ca3969;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+    
+
+
+    .Problem{
+        width: 95%;
+        padding: 4% 4%;
+        overflow: hidden;
+
+    }
+    .Enquiry{
+        width: 95%;
+        padding: 4% 4%;
+        overflow: hidden;
+    }
+
+
+
+
+
     footer {
         background-color: #333333;
         width: 100%;
