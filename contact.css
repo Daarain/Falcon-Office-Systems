@@ -525,3 +525,74 @@ footer {
 
 
 }
+
+@media(min-width :700px)and (min-height:240px){
+
+
+    .box {
+        height: 80vh;
+        width: 100%;
+        background-color: #ca3969;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+    
+
+   
+.Problem {
+    height: 55vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 2% 2%;
+    justify-content: space-between;
+    
+}
+
+.Enquiry {
+    height: 55vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 2% 2%;
+    justify-content: space-between;
+    
+}
+
+.Problem section{
+    font-size: 12px;
+    text-align: justify;
+
+
+}
+.Enquiry section{
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.Problem button{
+    background-color: #ca3969;
+    height: 30px;
+    /* color: white; */
+
+}
+
+.Enquiry button{
+    background-color: #ca3969;
+    height: 30px;
+    /* color: white;h */
+}
+
+}
