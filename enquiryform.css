@@ -10,6 +10,94 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
+
+
+header {
+    height: 70px;
+}
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 50px;
+
+}
+
+nav .logo {
+    font-size: 30px;
+    color: #ca3969;
+    font-weight: bold;
+    padding: 0px 70px;
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 3px;
+
+}
+
+nav ul li {
+    margin: 0 5px;
+    width: auto;
+}
+
+
+nav ul {
+    width: auto;
+    display: flex;
+    list-style: none;
+    /* background-color: red; */
+    justify-content: space-between;
+
+}
+
+/* 
+nav ul li{
+    font-size: 30px;
+} */
+nav ul li a {
+    color: #ca3969;
+    font-weight: bold;
+    text-decoration: none;
+    /* font-size: 0px; */
+    letter-spacing: 1px;
+    font-size: auto;
+    padding: 15px 20px 15px 20px;
+}
+
+nav ul li a:hover {
+    color: #89133d;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+nav .menu_bttn {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+}
+
+#click {
+    display: none;
+}
+.forms{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+background-color: #89133d;
+}
+
+
+
 footer {
     background-color: #333333;
     justify-content: space-between;
@@ -84,7 +172,80 @@ footer {
 
 
 @media(max-width:940px){
+    
+    
+    nav {
+        background-color: black;
+        /* width: 100%; */
+        justify-content: space-around;
+    }
 
+    nav .logo {
+        padding: 0px 0px;
+    }
+
+    nav .menu_bttn {
+        display: block;
+
+
+    }
+
+    #click:checked~.menu_bttn :before {
+        content: "\f00d";
+        height: 10px;
+        display: block;
+
+    }
+
+
+    nav ul {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        background-color: #111;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.4s;
+    }
+
+    nav ul li {
+        margin: 40px 0;
+    }
+
+    #click:checked~ul {
+        left: -0%;
+    }
+
+
+    nav ul li a {
+        color: white;
+        display: block;
+
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+        color: #ca3969;
+    }
+
+    .forms{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    background-color: #ca3969;
+    }
+    
+
+
+    .forms iframe{
+    width: 100%;
+    
+    }
 
     footer {
         background-color: #333333;
