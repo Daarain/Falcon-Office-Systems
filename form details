@@ -1,12 +1,28 @@
 enquiry form:-
-Nam 
-number
-email id
+Name
+Contact No
+Email-Id
+Address
+Enquiry Subject
+Enquiry Description
+
+
+
+
+
+Poblem :
+Name
+Address
+Email-ID
+Contact no
+Problem Subject
 Error code(If any)
-Poblem reported
+Problem Description
 
 
 
+
+/* 
 
    .Problem{
         width: 95%;
@@ -20,4 +36,4 @@ Poblem reported
         height: 35vh;
         padding: 4% 4%;
         overflow: hidden;
-    }
+    } */
