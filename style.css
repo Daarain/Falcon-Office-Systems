@@ -336,12 +336,12 @@ footer {
     /* background-color: red; */
     align-items: start;
     /* text-align: center; */
-    text-align: justify;
+    text-align:justify;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 12px;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color: white;
 }
@@ -354,6 +354,7 @@ footer {
     /* text-align: justify */
     height: 10vh;
     width: 80px;
+    margin-bottom: 10px;
 }
 
 .footer_element2 {
@@ -367,7 +368,15 @@ footer {
     text-align: justify;
 
 }
-
+.footer_element1 .text1{
+    height: 2vh;
+    margin-bottom: 2px;
+}
+.footer_element1 .contactdetails{
+    height: auto;
+    width:auto;
+    margin-bottom: 10px;
+}
 
 
 .footer_element2 a {
@@ -376,6 +385,7 @@ footer {
     font-size: 13px;
     /* font-weight: bold; */
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 /* 
